@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Montserrat:wght@300;500&display=swap');
+
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+    }
+
+
+    body {
+        background-color: #150C24;
+        font-family: 'Montserrat';
+        color:aliceblue;
+    }
+
+    body::-webkit-scrollbar {
+        width: 5px;
+        
+   } 
+
+    body::-webkit-scrollbar-thumb {   
+        background-color: darkgrey; 
+        border-radius: 20px;  
+    }
+
+    html {
+        scroll-behavior: smooth;
+        
+      }
+      
+   /*----------------- Navigation ---------------------------*/
+
+    .navigation {
+        font-family: 'Montserrat';
+        font-size: 15px;
+        text-align: right;
+        padding-left: 15px;
+    }
+
+    .navigation ul {
+        padding-right: 15px;
+    }
+
+    .navigation li {
+        display: inline-block;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 15px;
+        font-weight: 50;
+    }
+
+    .navigation a {
+        color: aliceblue;
+        text-decoration: none;
+        font-weight: 300;
+    }
+
+
+
+    /*----------------- Cabeçalho ---------------------------*/
+
+
+    .titulo {
+        margin-top: 110px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .titulo h1 {
+        font-size: 59px;
+        font-weight: 300;
+    }
+
+    .titulo h2 {
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .titulo a {
+        margin-top: 40px;
+        margin-bottom: 50px;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .botao {
+        background-color: aliceblue;
+        border: none;
+        color: #150C24;
+        padding: 3px 60px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 55px;
+    }
+
+   /*----------------- Sobre Mim ---------------------------*/
+
+    .sobreMim {
+        background-color: #1B102D;
+        padding-bottom: 50px;
+        padding-left: 50px ;
+        padding-right: 50px;
+         
+    }
+
+    .sobreMim h3 {
+        font-size: 36px;
+        font-family: 'Julius Sans One';
+        font-weight: 400;
+        text-align: center;
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+
+    .sobreMim hr {
+        border-top: 1px solid white;
+        padding-bottom: 50px;
+    }
+
+    /*----------------- Conhecimentos ---------------------------*/
+
+    .sobreMim p {
+        font-size: 24px;
+        font-weight: 300;
+        
+    }
+
+    .conhecimentos {
+        padding-bottom: 40px;
+        padding-left: 50px ;
+        padding-right: 50px;
+        margin-bottom: 30px;
+    }
+
+    .conhecimentos h3 {
+        font-size: 36px;
+        font-family: 'Julius Sans One';
+        font-weight: 400;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 15px;
+        
+    }
+
+    .conhecimentos hr {
+        border-top: 1px solid white;
+        padding-bottom: 50px;
+        padding-bottom: 10px;
+    }
+
+    .flex-container {
+        font-family: 'Montserrat';
+    }
+
+    .list-tec {
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    .item-tec {
+        flex: 1;
+        border: 1px solid white;
+        margin-right: 20px;
+        width: 272px;
+        height: 329px;
+        padding: 10px 7px;
+        max-width: 240px;
+        border-radius: 20px;
+        
+    }  
+
+    .item-tec img {
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+
+    .item-tec h4 {
+        padding-top: 20px;
+        font-weight: 300;
+        font-size: 30px;
+    }
+
+    .item-tec p {
+        padding-top: 30px;
+        padding-bottom: 10px;
+        font-size: 24px ;
+        font-weight: 200;
+    }
+
+    /*----------------- Soft Skills ---------------------------*/
+
+    .softSkills {
+        background-color: #1B102D;
+        padding-bottom: 40px;
+        padding-left: 50px ;
+        padding-right: 50px;
+    }
+
+    .softSkills h3 {
+        font-size: 36px;
+        font-family: 'Julius Sans One';
+        font-weight: 400;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+
+    .softSkills hr {
+        border-top: 1px solid white;
+        padding-bottom: 50px;
+        padding-bottom: 10px;
+    }
+
+    .quadroSkills {
+        margin-top: 50px;
+        font-family: 'Montserrat';
+        font-weight: 300;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+    }
+
+    .quadroSkills p {
+        align-items: inherit;
+        font-size: 30px;
+        border: 1px solid white;
+        border-radius: 50px;
+        padding: 5px 60px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 30px;
+    }
+
+    .imgSoftSkills {
+        width: 37px;
+        height: 35px;
+        padding-right: 25px;
+    }   
+    
+    /*----------------- Projetos ---------------------------*/ 
+
+    .projetos {
+        padding-bottom: 50px;
+        padding-left: 50px ;
+        padding-right: 50px;
+    }
+
+    .projetos h3 {
+        font-size: 36px;
+        font-family: 'Julius Sans One';
+        font-weight: 400;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+
+    .projetos hr {
+        border-top: 1px solid white;
+        padding-bottom: 50px;
+        padding-bottom: 10px;
+    }
+
+    .imgprojetos{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    /*----------------- Contato ---------------------------*/ 
+
+    .contato {
+        background-color: #1B102D;
+        padding-bottom: 40px;
+        padding-left: 50px ;
+        padding-right: 50px;
+        text-align: center;
+    }
+    .contato h3 {
+        font-size: 36px;
+        font-family: 'Julius Sans One';
+        font-weight: 400;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+
+    .contato hr {
+        border-top: 1px solid white;
+        padding-bottom: 50px;
+        padding-bottom: 10px;
+        margin-bottom: 50px;
+    }
+
+    .contato p {
+        font-family: 'Montserrat';
+        font-weight: 300;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+
+    .blocosContato {
+        display:block;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    .iconsctt {
+        width: 20px;
+        height: 20px;
+        padding-right: 10px;
+    } 
+
+    .imgContato img {
+        width: 45px;
+        height: 45px;
+        margin-top: 20px;
+    }
+
+    .linksContato {
+        margin-right: 100px;
+
+    }
+
+    
+
+    
+
+  /*----------------- Rodape ---------------------------*/
+
+    footer {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-left: 50px ;
+        padding-right: 50px;
+        text-align: center;
+        font-weight: 200;
+    }
+    
+    
+
+
+    
