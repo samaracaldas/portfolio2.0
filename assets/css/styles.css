@@ -57,6 +57,16 @@
         font-weight: 300;
     }
 
+    .navigation li.threeline-icon {
+        display: none;
+    }
+    
+    
+    .navigation li.threeline-icon:hover {
+        color: white;
+        cursor: pointer; 
+    }
+
 
 
     /*----------------- Cabeçalho ---------------------------*/
@@ -77,7 +87,7 @@
 
     .titulo h2 {
         font-size: 25px;
-        font-weight: 400;
+        font-weight: 300;
     }
 
     .titulo a {
@@ -122,14 +132,15 @@
         border-top: 1px solid white;
         padding-bottom: 50px;
     }
-
-    /*----------------- Conhecimentos ---------------------------*/
-
+    
     .sobreMim p {
         font-size: 24px;
         font-weight: 300;
         
     }
+
+    /*----------------- Conhecimentos ---------------------------*/
+
 
     .conhecimentos {
         padding-bottom: 40px;
@@ -175,6 +186,7 @@
         padding: 10px 7px;
         max-width: 240px;
         border-radius: 20px;
+        padding-bottom: 10px;
         
     }  
 
@@ -253,6 +265,7 @@
         padding-bottom: 50px;
         padding-left: 50px ;
         padding-right: 50px;
+       
     }
 
     .projetos h3 {
@@ -264,17 +277,39 @@
         padding-bottom: 15px;
     }
 
+    .project-img{
+        margin-top: 50px;
+    }
+
+    .responsiveImg {
+        display: none;
+    }
+
     .projetos hr {
         border-top: 1px solid white;
         padding-bottom: 50px;
         padding-bottom: 10px;
     }
 
-    .imgprojetos{
-        margin-top: 50px;
+    .swiper {
+        height: 500px;
+        
+      }
+      
+      .swiper-slide {
+        text-align: center;
         display: flex;
+        align-items: center;
         justify-content: center;
-    }
+        color: white;
+      }
+
+      .swiper-wrapper {
+        padding-bottom: 10px;
+        padding-top: 10px;
+      }
+
+
 
     /*----------------- Contato ---------------------------*/ 
 
@@ -333,9 +368,6 @@
 
     }
 
-    
-
-    
 
   /*----------------- Rodape ---------------------------*/
 
@@ -348,7 +380,32 @@
         font-weight: 200;
     }
     
+   /*----------------- Animação ---------------------------*/ 
+
+    
+    .fadeIn {
+        animation: fadeIn 1s linear;
+    }
+    @keyframes fadeIn {
+        from{ opacity: 0;
+        }
+        to{ opacity: 1; 
+        }
+    }
+
+    @keyframes fadeIn {
+        0%{opacity: 0;
+        }
+        50%{opacity: 0.5;
+        }
+        100%{opacity: 1;
+        }
+    }
+
+
+
     
 
-
+    
+   
     

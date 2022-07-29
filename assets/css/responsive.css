@@ -1,0 +1,259 @@
+@media (max-width: 1000px) {
+    
+    * {
+        padding:0;
+        margin:0;
+        vertical-align:baseline;
+        list-style:none;
+        border:0
+    }
+
+  /*------------------------ Navigation ---------------------------*/
+    
+    .navigation {
+        margin-right: 0;
+
+
+    }
+
+    .navigation ul {
+        text-align: right;
+
+    }
+
+
+    .navigation li {
+        display: none;	
+
+    }
+
+    .navigation li.threeline-icon {
+        display: inline-block;
+        color: aliceblue;
+
+    }
+
+    .menujs {
+        height: 100px;
+        height: auto;
+        padding-top: 50px;
+        
+    }
+    
+    .menujs ul {
+        height: auto;
+        text-align: right;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: -100px;
+    }
+    
+    .menujs li {
+        display: block;
+        margin-bottom: 30px;
+        width: 100%;
+        padding: 0;
+    
+    }
+    
+
+  /*------------------------ Título ---------------------------*/
+
+
+        .titulo {
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 40px;
+            
+        }
+    
+        .botao {
+            text-align: center;
+            display: inline-block;
+            
+        }
+
+    
+        .sobreMim h3 {
+            text-align: center;
+            padding-top: 25px;
+            padding-bottom: 15px;
+        }
+    
+    /*------------------------ Conhecimentos ---------------------------*/
+
+
+        .conhecimentos {
+            justify-content: center;
+            padding-bottom: 40px;
+            
+            margin-bottom: 30px;
+        }
+
+        .conhecimentos h3 {
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 15px;
+            font-size: 30px;
+            
+        }
+
+        .conhecimentos hr {
+        
+            padding-bottom: 50px;
+            padding-bottom: 10px;
+        }
+
+
+        .list-tec {
+            margin-top: 50px;
+            display: block;
+            align-items: center;
+            text-align: center;
+            
+        }
+
+        .item-tec {
+            flex: 1;
+            align-items: center  ;
+            margin-right: 20px;
+            width: 272px;
+            height: 329px;
+            padding: 10px 7px;
+            max-width: 240px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }  
+
+        .item-tec img {
+            padding-top: 15px;
+            padding-bottom: 20px;
+        }
+
+        .item-tec h4 {
+            padding-top: 20px;
+            
+        }
+
+        .item-tec p {
+            padding-top: 30px;
+            padding-bottom: 10px;
+        
+        }
+        
+    /*----------------- Soft Skills ---------------------------*/
+
+        .softSkills {
+            padding-bottom: 40px;
+            padding-left: 50px ;
+            padding-right: 50px;
+        }
+
+        .softSkills h3 {
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 15px;
+        }
+
+        .softSkills hr {
+            padding-bottom: 50px;
+            padding-bottom: 10px;
+        }
+
+        .quadroSkills {
+            margin-top: 50px;
+            display: block;
+            align-items: center;
+            text-align: center;
+        
+        }
+
+        .quadroSkills p {
+            align-items: center;
+            font-size: 30px;
+            border-radius: 50px;
+            padding: 5px 
+
+        }
+
+        .imgSoftSkills {
+            width: 37px;
+            height: 35px;
+            padding-right: 25px;
+        }    
+
+
+   /*----------------- Projetos ---------------------------*/ 
+
+    
+    .projetos {
+        padding-bottom: 70px;
+    }
+
+    .projetos h3 {
+        font-size: 36px;
+        font-family: 'Julius Sans One';
+        font-weight: 400;
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+
+    .projetos img {
+        width: 100%;
+    }
+
+    .desktopImg {
+        display: none;
+    }
+
+    .responsiveImg {
+        display: flex;
+        
+    }
+
+
+    .projetos hr {
+        border-top: 1px solid white;
+        padding-bottom: 50px;
+        padding-bottom: 10px;
+    }
+
+    .swiper {
+        height: 500px;
+        
+    }
+      
+    .swiper-slide {
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+
+    .swiper-button-next {
+        display: none;
+    }
+        
+
+    
+   /*----------------- Projetos ---------------------------*/ 
+
+
+
+   .contato p {
+    font-family: 'Montserrat';
+    font-weight: 300;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+
+}
+
+
+
+
+    

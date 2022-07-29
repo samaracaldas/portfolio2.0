@@ -5,16 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    
     <title>Samara Caldas</title>
 </head>
 
-<body>
+<body class="fadeIn">
     <div id="navigation" class="navigation">
         <ul>
             <li><a href="#sobreMimLink">Sobre mim</a></li>
             <li><a href="#conhecimentosLink">Conhecimentos</a></li>
             <li><a href="#projetos">Projetos</a></li>
             <li><a href="#contato">Contato</a></li>
+            <li id="threeline-icon" class="threeline-icon" onclick="openNav()">&#9776;</li>
             
         </ul>
     </div>
@@ -22,7 +26,7 @@
     <div class="titulo">
         <h1>Samara Caldas</h1>
         <h2>Front-End Developer</h2>
-        <a href="#" class="botao">Download CV</a>
+        <a href="/assets/download/Curriculo - Samara Caldas Ferreira .pdf" download="curriculoSamaraCaldas" class="botao">Download CV</a>
     </div>
     
     <div id="sobreMimLink" class="sobreMim">
@@ -91,10 +95,31 @@
     <div id="projetos" class="projetos">
         <h3>Projetos</h3>
         <hr>
-        <div class="imgprojetos">
-         <a href="#"><img src="assets/img/projetos/projetoLandingPage.png"></a>
-        </div> 
-    </div>
+      
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="project-img">
+                          <a href="http://frontenders.rf.gd/index.html" target="_blank"><img class="desktopImg" src="assets/img/projetos/projetoLandingPage.png" alt="imagem 1"></a>  
+                          <a href="http://frontenders.rf.gd/index.html" target="_blank"><img class="responsiveImg" src="assets/img/projetos/projetoLandingPageResponsivo.png"></a>           
+                      </div> 
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="project-img">
+                            <a href="http://listtodo.rf.gd/?i=1"target="_blank"><img class="desktopImg" src="assets/img/projetos/projetoToDo.png" alt="imagem 2"></a>
+                            <a href="http://listtodo.rf.gd/?i=1"target="_blank"><img class="responsiveImg" src="assets/img/projetos/projetoToDoResponsivo.png" alt="imagem 2"></a> 
+                        </div>    
+                    </div>    
+                </div>      
+              
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+
+            </div>
+    </div> 
+          
+    
 
     <div id="contato" class="contato">
         <h3>Contato</h3>
@@ -116,7 +141,7 @@
 
     
     
-
-
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
